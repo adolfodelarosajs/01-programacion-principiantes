@@ -26,13 +26,13 @@ Instalar [Node](https://nodejs.org/es/)
 
 Comprobar versión:
 
-	`node --version`
+`node --version`
 
 Instalar [TypeScript](https://www.typescriptlang.org/)
 
 Comprobar versión:
 
-	`npm install -g typescript`
+`npm install -g typescript`
 
 ## Ejecutando nuestro primer programa
 
@@ -66,15 +66,14 @@ Ya tenemos nuestro archivo JS, para ejecutarlo existen varias formas, en este ca
 
 Usando la consola de VSC, Git Bash o la consola de Windows y estando dentro de la carpeta **Seccion03** ejecutamos el comando:
 
-	```
-		node app
+```
+node app
+Hola Mundo!
+```
 
-		Hola Mundo!
-	```
+Obsérvese que no es necesario poner la extensión **.js**
 
-	Obsérvese que no es necesario poner la extensión **.js**
-
-	Nos aparece en la consola el mensaje que codificamos. Si tuviéramos un error se mostrara en la consola para que lo solucionemos.
+Nos aparece en la consola el mensaje que codificamos. Si tuviéramos un error se mostrara en la consola para que lo solucionemos.
  
 ## Ejecutar nuestro hola mundo en una página web
 
