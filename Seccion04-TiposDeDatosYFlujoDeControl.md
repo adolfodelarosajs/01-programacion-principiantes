@@ -17,32 +17,32 @@
 2. Puedes usar letras, números y guión bajo para definir tus variables y constantes. El nombre debe iniciar con una letra o guión bajo, el nombre de la variable no puede iniciar con un número.
 
 	```
-	let nombre1; 	//correcto
-	let nombre1_; 	//correcto
-	let _nombre1; 	//correcto
-	let 1nombre; 	//incorrecto
-	let nombre@; 	//incorrecto
-	let _ ; 		//correcto
+	let nombre1; //correcto
+	let nombre1_; //correcto
+	let _nombre1; //correcto
+	let 1nombre; //incorrecto
+	let nombre@; //incorrecto
+	let _ ; //correcto
 	```
 3. No puede contener caracteres especiales como:
 
-	```
-	@ 	( 	~	# 	á	é	í	ó	ú	ñ	...
-	```
+```
+@ 	( 	~	# 	á	é	í	ó	ú	ñ	...
+```
 
 El **signo de dolar ($)** es permitido en el nombre de una variable.
 
-	```
-	let	$hola;		//correcto
-	let	hol@;		//incorrecto
-	let	adiós;		//incorrecto
-	let o'conor;	//incorrecto
-	let ca$a;		//correcto
-	let año;		//incorrecto
-	```
+```
+let $hola; //correcto
+let hol@; //incorrecto
+let adiós; //incorrecto
+let o'conor; //incorrecto
+let ca$a; //correcto
+let año; //incorrecto
+```
 **Recomendaciones**: 
 
-* Los nombres de las variables y constantes, deben de tener un nombre significativo a lo que almacenán.
+* Los nombres de las variables y constantes, deben de tener un nombre significativo de lo que almacenán.
 
 * Usar notación CamelCase:
 
