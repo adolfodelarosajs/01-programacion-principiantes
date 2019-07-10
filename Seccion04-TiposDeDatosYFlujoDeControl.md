@@ -8,26 +8,27 @@
 
 1. No podemos darle el nombre a una variable o constante, igual a una palabra reservada del lenguaje de programación.
 
-	```
-	let let = 20;  //error
-	let letra = 20; //correcto
-
-	```
+```
+let let = 20;  //error
+let letra = 20; //correcto
+```
 
 2. Puedes usar letras, números y guión bajo para definir tus variables y constantes. El nombre debe iniciar con una letra o guión bajo, el nombre de la variable no puede iniciar con un número.
 
-	```
-	let nombre1; //correcto
-	let nombre1_; //correcto
-	let _nombre1; //correcto
-	let 1nombre; //incorrecto
-	let nombre@; //incorrecto
-	let _ ; //correcto
-	```
+```
+let nombre1; //correcto
+let nombre1_; //correcto
+let _nombre1; //correcto
+let 1nombre; //incorrecto
+let nombre@; //incorrecto
+let _; //correcto
+```
 3. No puede contener caracteres especiales como:
 
 ```
+
 @ 	( 	~	# 	á	é	í	ó	ú	ñ	...
+
 ```
 
 El **signo de dolar ($)** es permitido en el nombre de una variable.
