@@ -6,7 +6,7 @@
 
 ## Explicación sobre las funciones
 
-**Función**: Una función es un conjunto de líneas de código que realizan una tarea específica y pueden retornar algo. ayudan a no repetir código.
+**Función**: Una función es un conjunto de líneas de código que realizan una tarea específica y pueden retornar algo, ayudan a no repetir código.
 
 ```
 function saludar(){
@@ -102,7 +102,7 @@ Un arreglo es un conjunto de cosas similares.
 
 `let flores = ["Rosa", "Girasol", "Lirio"];`
 
-**Extraer elementos del arreglo"
+**Extraer elementos del arreglo**
 
 `let primerFlor = flores[0]; //Rosa`
 
