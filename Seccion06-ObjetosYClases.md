@@ -78,7 +78,7 @@ for( let i = 0; i < personas.length; i++){
 
 ## Explicación sobre las clases
 
-**Clases:** Al igual que los objetos, pueden ser representaciones abstractas de cosas, son como moldes para hacer galletas.
+**Clases:** Al igual que los objetos, las clases pueden ser representaciones abstractas de cosas de la vida real, pero sirven para crear varias instancias de una misma clase, son como moldes para hacer galletas.
 
 Los nombres de las clases comienzan con mayúsculas. 
 
@@ -90,7 +90,7 @@ let galletaDos = new Galleta();
 
 ```
 
-Las clases también tienen propiedades como los Objetos.
+Las clases también tienen propiedades como los objetos.
 
 ```
 class Galleta {
@@ -100,7 +100,7 @@ class Galleta {
 }
 ```
 
-Todas las clases tienen una función interna llamada **constructor** la cual cuando se cree una instancia de la clase ejecute primero esta función. 
+Todas las clases tienen una función interna llamada **constructor**, cuando se crea una instancia de la clase, se ejecuta esta función. 
 
 ```
 class Galleta{
