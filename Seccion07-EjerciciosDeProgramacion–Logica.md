@@ -148,7 +148,7 @@ let heroes = ['Doom', 'Dr. Strange', 'Hulk', 'She Hulk', 'Spiderman','Captain Ma
 let heroesCon = filtrarPorLetra(heroes, 'S');
 
 console.log(heroesCon); //0: "She Hulk"
-						//1: "Spiderman"
+			//1: "Spiderman"
 
 ```
 
